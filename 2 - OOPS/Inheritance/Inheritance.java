@@ -96,11 +96,6 @@ class Teacher extends School{
 
 public class Inheritance {    
     public static void main(String[] args) {
-        Parents parent = new Parents("dad", "Raj");
-        Teacher teacher = new Teacher("CAO");
-        parent.printSchoolName();
-        parent.printStudentName();
-        parent.printParent();
-        teacher.printSubject();
+       
     }
 }
