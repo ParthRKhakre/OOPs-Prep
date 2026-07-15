@@ -1,5 +1,4 @@
 package Inheritance; /*
-    
                      In the program we created School and Students classes and then used them 
                      Uniquely. The extra object creation can be eliminated using inheritence.
                      As Student is a part of the school.
@@ -37,7 +36,7 @@ package Inheritance; /*
                      }
                      
                      } 
-                     */
+*/
 
 class School {
     private String name;
@@ -55,7 +54,7 @@ class Students extends School {
     /*
      * As we have inherited the School class then its attibute
      * and methods are accessible for Students class.
-     */
+    */
 
     private String name;
 
@@ -90,12 +89,16 @@ class Teacher extends School{
     }
 
     void printSubject(){
-        System.out.println("Subject is :" + subject);
+        System.out.println("Subject is: " + subject);
     }
 }
 
 public class Inheritance {    
     public static void main(String[] args) {
-       
+       Students student = new Students("Raj");
+       Teacher teacher = new Teacher("Maths");
+       student.printSchoolName();
+       teacher.printSubject();
+
     }
 }
