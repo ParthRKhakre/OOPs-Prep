@@ -1,12 +1,10 @@
 package JavaCollectionFramework;
-
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class list {
 
     public static void main(String[] arg){
-        ArrayList<String> arrayList = new ArrayList<>();
+        List<String> arrayList = new ArrayList<>();
         arrayList.add("Apple");
         arrayList.add("Banana");
         arrayList.add("Watermelon");

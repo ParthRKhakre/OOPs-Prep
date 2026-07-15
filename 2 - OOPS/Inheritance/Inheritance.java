@@ -1,4 +1,5 @@
-package Inheritance; /*
+package Inheritance; 
+/*
                      In the program we created School and Students classes and then used them 
                      Uniquely. The extra object creation can be eliminated using inheritence.
                      As Student is a part of the school.
